@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Fenix&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Fenix', serif;
+
+}
+main{
+    display: flex;
+}
+.cover{
+    background-color: #1E1E1E;
+    color: white;
+    width: 50%;
+    height: 100vh;
+   
+}
+
+.paper{
+    background-image: url("https://s3-alpha-sig.figma.com/img/5d7d/5ab4/0f2b5e15d791dac2b0ec1e4e731429fd?Expires=1670803200&Signature=KVIPH5vWY4YCoNEAZXrUyftkT1pf1fmPnl-UY2qX9nFj9usg6ER2J7Q7U1EADjaJfxW6SzFIlEb~qAxUMwF-mZ4oaiQtRwuNucSqmpyhymk4hrpbduwN5IYmGUwyuc9PBpQglFBijRsc4uwlAAEKkqsuuQz4gWYxUQLNui5oimcrXWM0d~5PW~9cqz-szJGyXKRTXSCKtjE46EpNTQdAXzDr56tjl~-0~G-8yqsMfp-qYyqbxYW-m5tv8OTj5V3SPEwcs9qB9jfCGGv0qxvLbuZKvQokDZmszK9m~q863NOhAaJRTSpEafw6Qk4~ZBX4GSKzO3H7Vsk2HXhy2bYBFA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    width: 50vw;
+    height: 70vh;
+    position: relative;
+   
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+   font-size: 30px;
+   font-family: 'Roboto', sans-serif;
+   position: relative;
+}
+
+
+p{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 16%;
+    left: 17%;
+    width: 60%;
+}
+
+h1{
+    top:15%;
+    left: 12%;
+}
+
+
+
+.logon{
+    width: 50%;
+    height: 100vh;
+    background-color: #EFD0A9;
+
+}
+
+h2{
+    font-size: 30px;
+    position: relative;
+    top: 8%;
+    left: 12%;
+    width: 30%;
+}
+
+form{
+    display: grid;
+    justify-content: start;
+    padding-left:13%;
+    padding-top: 10%;
+}
+
+label{
+   font-size: 17px;
+   padding-top: 4%;
+   padding-bottom: 2%;
+}
+
+input{
+    border:#D08C60 1px solid;
+    height: 26px;
+    width: 40vh;
+    background-color: #EFD0A9;
+}
+
+input::placeholder{
+    color: rgba(61, 61, 61, 0.568);
+    font-size: 15px;
+    padding: 2%;
+}
+
+.niver{
+   display: flex;    
+}
+
+.niver input{
+    width: 60px;
+    margin-right: 2%;
+}
+
+.check input{
+    width: 17px;
+    height: 17px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.check label{
+    font-size: 12px;
+    position: relative;
+    bottom: 10%;
+    left: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    background-color: #9B9B7A;
+    width: 90%;
+    height: 5vh;
+    font-size: 17px;    
+}
+
+@media (min-width: 360px) and (max-width: 720px){
+    main{
+        display: inline;
+    }
+
+    .cover{
+       width: 100%;
+       height: 30vh;
+    }
+
+    .logon{
+        width: 100%;
+        height: 75vh;
+    }
+
+    .paper{
+
+    width:100%;
+    height: 35vh;
+    background-position: center;
+    position: relative;
+    bottom: 90%;
+    }
+
+    h1{
+        text-align: center;
+        position: relative;
+        top:40%;
+        left: -2%;
+       
+    }
+
+    p{
+        width: 65%;
+        font-size: 15px;
+        top:40%;
+        text-align: center;
+       
+    }
+
+    h2{
+        width: 50%;
+        margin-bottom: 2%;
+    }
+
+    label{
+        text-align: center;
+    }
+
+    .niver {
+        position: relative;
+        left: 12%;
+    }
+
+    button{
+        left: 7%;
+        position: relative;
+    }
+}
