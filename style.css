@@ -23,7 +23,7 @@ main{
 }
 
 .paper{
-    background-image: url("https://s3-alpha-sig.figma.com/img/5d7d/5ab4/0f2b5e15d791dac2b0ec1e4e731429fd?Expires=1670803200&Signature=KVIPH5vWY4YCoNEAZXrUyftkT1pf1fmPnl-UY2qX9nFj9usg6ER2J7Q7U1EADjaJfxW6SzFIlEb~qAxUMwF-mZ4oaiQtRwuNucSqmpyhymk4hrpbduwN5IYmGUwyuc9PBpQglFBijRsc4uwlAAEKkqsuuQz4gWYxUQLNui5oimcrXWM0d~5PW~9cqz-szJGyXKRTXSCKtjE46EpNTQdAXzDr56tjl~-0~G-8yqsMfp-qYyqbxYW-m5tv8OTj5V3SPEwcs9qB9jfCGGv0qxvLbuZKvQokDZmszK9m~q863NOhAaJRTSpEafw6Qk4~ZBX4GSKzO3H7Vsk2HXhy2bYBFA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    background-image: url("assets/livro.png");
     width: 50vw;
     height: 70vh;
     position: relative;
